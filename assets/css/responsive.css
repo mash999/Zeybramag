@@ -1,0 +1,903 @@
+
+@media only screen and (max-width: 991px)
+{
+	#page-wrapper
+	{
+		overflow-x: hidden;
+	}
+
+
+	.menu-bars
+	{
+		display: block;
+	}
+
+
+	#body-overlay
+	{
+		display: none;
+		position: fixed;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100vh;
+		z-index: 9;
+		background: rgba(0,0,0,.7);
+		cursor: pointer;
+	}
+
+
+	#body-overlay .white-background
+	{
+		position: fixed;
+		top: 0;
+		right: 0;
+		width: 200px;
+		height: 100vh;
+		background: white;
+	}
+
+
+	.menu-bars
+	{
+		position: absolute;
+		right: 20px;
+		top: 22px;
+		font-size: 25px;
+		cursor: pointer;
+	}
+
+
+	.already-logged-in 
+	{
+	    float: left;
+	    margin-left: 15px;
+	}
+
+
+	.navigation-menu 
+	{
+		position: fixed;
+	    height: 100vh;
+	    z-index: 11;
+	    box-shadow: 1px 1px 5px 4px rgba(255,255,255,.3);
+	    margin-right: -230px;
+	    overflow-y: scroll;
+	}
+
+
+	.fa-chevron-right
+	{
+		position: absolute;
+		top: 0;
+		right: 0;
+		height: 60px;
+		border-radius: 0;
+		line-height: 50px;
+	}
+
+
+	#nav-border
+	{
+		display: none;
+	}
+
+
+	.topbar
+	{
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 60px;
+		margin-bottom: 20px;
+		border-bottom: 1px dashed #666;
+	}
+
+
+	.topbar h1
+	{
+		display: none;
+	}
+
+
+	.login-menu
+	{
+		position: absolute;
+		left: 20px;
+	}
+	
+	
+	.article-type-2 .media-link h4
+	{
+	    font-size : 18px !important;
+	}
+	
+	
+	.article-type-2 .media-link p
+	{
+	    font-size : 14px !important;
+	}
+}
+
+
+@media only screen and (min-width: 992px) and (max-width: 1300px)
+{
+    .article-type-2 .media-link h4
+    {
+    	font-size: 22px !important;
+    }
+}
+
+
+
+
+
+
+
+
+
+/* --------------------------------------------------------------------------------------------------------- */
+/* ----------------------------------------------- LANDING PAGE -------------------------------------------- */
+/* --------------------------------------------------------------------------------------------------------- */
+
+@media only screen and (max-width: 575px)
+{
+	.content-wrapper
+	{
+		width: 100%;
+		margin-top: 60px;
+		margin-left: -2px;
+		padding: 0px;
+	}
+
+
+	.sidebar
+	{
+		width: 100%;
+	}
+
+
+	.article-thumbnails
+	{
+		width: 100%;
+		padding: 0px;
+	}
+
+
+	.article-type-1 img,
+	.article-type-1 video,
+	.article-type-1 .media-link
+	{
+		max-width: 300px;
+		object-fit: contain;
+	}
+
+
+	.article-type-2
+	{
+		margin-bottom: 20px !important;
+	}
+
+
+	.article-type-3,
+	.article-type-4
+	{
+		width: 100%;
+		margin-bottom: 20px;
+    }
+}
+
+
+@media only screen and (min-width: 576px) and (max-width: 991px)
+{
+	.content-wrapper
+	{
+		width: 100%;
+		padding: 0px;
+	}
+
+
+	.sidebar
+	{
+		width: 35%;
+		margin-right: 2%;
+	}
+	
+	
+	.sidebar .article-type-1
+	{
+		padding: 20px 10px;
+	}
+	
+	
+	.sidebar .article h1 
+	{
+	    font-size: 16px;
+	    font-weight: normal;
+	    line-height: normal;
+	}
+	
+	
+	.sidebar .article p
+	{
+		font-size: 14px;
+	}
+
+
+	.article-thumbnails
+	{
+		width: 60%;
+		padding: 0px;
+	}	
+
+
+	.article-thumbnails .article h1
+	{
+		font-size: 18px;
+		font-weight: normal;
+		line-height: 20px;
+	}
+
+
+	.article-thumbnails .article p
+	{
+		font-size: 14px;
+	}
+
+
+	.article-thumbnails .article
+	{
+		margin-bottom: 20px;
+	}
+}
+
+
+@media only screen and (min-width: 576px) and (max-width: 815px)
+{
+	.article-type-3,
+	.article-type-4
+	{
+		width: 100% !important;
+		margin-bottom: 20px;
+	}
+}
+
+
+@media only screen and (min-width: 992px) and (max-width: 1299px)
+{
+	.navigation-menu
+	{
+		position: absolute;
+		top: 0;
+		right: 0;
+		width: 200px;
+		height: auto;
+	}
+
+
+	#nav-border
+	{
+		width: 201px;
+		height: 100vh;
+	}
+
+
+	.topbar
+	{
+		width: calc(100% - 200px);
+	}
+
+
+	.content-wrapper
+	{
+		width: calc(100% - 200px);
+		padding-left: 0px;
+	}
+
+
+	.sidebar
+	{
+		width: 34%;
+	}
+
+
+	.article-thumbnails 
+	{
+	    float: right;
+	    width: 65%;
+	    box-sizing: border-box;
+	    padding: 0px 2%;
+	}
+}
+
+
+@media only screen and (min-width: 992px) and (max-width: 1182px)
+{
+	#nav-border
+	{
+		width: 201px;
+	}
+
+
+	.article-type-2
+	{
+		margin-bottom: 20px !important;
+	}
+
+
+	.article-type-3,
+	.article-type-4
+	{
+		width: 100%;
+		margin-bottom: 20px;
+	}
+}
+
+
+
+
+
+
+
+
+
+/* --------------------------------------------------------------------------------------------------------- */
+/* ----------------------------------------------- DETAIL PAGE --------------------------------------------- */
+/* --------------------------------------------------------------------------------------------------------- */
+
+@media only screen and (max-width: 767px)
+{
+	.full-article h1
+	{
+		font-size: 25px;
+	}
+
+
+	.media-link-lg h4,
+	.media-link-lg p
+	{
+		font-size: 20px;
+	}
+
+
+	.article-banner
+	{
+		width: 96%;
+	}
+
+
+	.article-banner .little-info .article-location
+	{
+		float: left;
+		text-align: left;
+	}
+
+
+	.article-content .flags
+	{
+		float: left;
+		padding-left: 0px;
+	}
+
+
+	.article-content .flags span 
+	{
+	    float: left !important;
+	    margin-left: 0;
+	    margin-right: 10px;
+	}
+
+
+	.more-articles
+	{
+		width: 100%;
+		float: left;
+		padding: 15px;
+		box-sizing: border-box;
+		border: 1px solid #ccc;
+		margin-top: 20px;
+	}
+
+
+	.more-articles h1
+	{
+		font-size: 15px !important;
+	}
+}
+
+
+@media only screen and (max-width: 575px)
+{
+	.article-banner
+	{
+		width: 100%;
+	}
+}
+
+
+@media only screen and (min-width: 768px) and (max-width: 991px)
+{
+	.more-articles
+	{
+		width: 25%;
+		padding-left: 0;
+		padding-right: 20px;
+	}
+
+
+	.article-detail
+	{
+		width: 68%;
+	}
+}
+
+
+
+
+
+
+
+
+
+/* --------------------------------------------------------------------------------------------------------- */
+/* ---------------------------------------------- NEW ARTICLE PAGE ----------------------------------------- */
+/* --------------------------------------------------------------------------------------------------------- */
+
+@media only screen and (max-width: 1279px)
+{
+	.remove-translated-article
+	{
+		max-width: 50px;
+		margin: 0;
+		border-radius: 0;
+	}
+}
+
+
+@media only screen and (min-width: 767px)
+{
+	.form-buttons h3 a.pull-right
+	{
+		float: right;
+		width: auto;
+		margin-top: 0px;
+		margin-bottom: 0px;
+	}
+}
+
+
+@media only screen and (max-width: 1099px)
+{
+	.article-forms
+	{
+		padding: 0px;
+		box-shadow: none;
+	}
+
+
+	.form-buttons
+	{
+		padding-top: 10px;
+		margin-top: 0;
+		margin-bottom: 0;
+	}
+
+
+	.form-buttons h3
+	{
+		font-size: 18px !important;
+		line-height: 25px;
+	}
+
+
+	.form-buttons h3 a
+	{
+		float: left;
+		width: 100%;
+		margin-top: 10px;
+		margin-bottom: 20px;
+	}
+
+
+	.all-flags
+	{
+		float: left;
+		width: 105%;
+		max-width: 105%;
+		margin-top: 15px;
+	}
+
+
+	#preview-box
+	{
+		margin-bottom: 30px;
+	}
+}
+
+
+@media only screen and (max-width: 767px)
+{
+	.article-forms .form-inputs 
+	{
+		width: 100%;
+	}
+
+
+	.form-buttons h3 span
+	{
+		float: left;
+		width: 100%;
+		margin-left: 0;
+		margin-bottom: 0;
+	}
+
+
+	.form-buttons .btn .fa
+	{
+		margin-right: 0;
+	}
+
+
+	.form-buttons .btn span
+	{
+		display: none;
+	}
+
+
+	.article-forms .form-inputs label
+	{
+		font-size: 15px;
+	}
+
+
+	.languages
+	{
+		margin-top: 5px;
+	}
+
+
+	.optional-inputs
+	{
+		float: left;
+		width: 100%;
+		margin-bottom: 20px;
+		padding: 0;
+	}
+
+
+	.tile-type
+	{
+		width: 100%;
+	}
+}
+
+
+@media only screen and (min-width: 576px) and (max-width: 767px)
+{
+	.article-forms
+	{
+		width: 96%;
+		padding: 0px 5px !important;
+		box-shadow: none;
+		margin-top: -20px;
+	}
+
+
+	.form-inputs
+	{
+		float: left;
+		width: 50%;
+		padding-left: 0;
+		padding-right: 0;
+	}
+
+
+	.form-buttons
+	{
+		padding: 0;
+		margin-top: 0;
+	}
+}
+
+
+@media only screen and (min-width: 768px) and (max-width: 840px)
+{
+	.form-buttons
+	{
+		padding-right: 25px;
+		margin-top: -30px;
+	}
+
+
+	.article-forms
+	{
+		width: 98%;
+	}
+
+
+	.form-inputs
+	{
+		width: 100%;
+	}
+}
+
+
+@media only screen and (min-width: 841px) and (max-width: 991px)
+{
+	.article-forms 
+	{
+		float: left;
+		width: 98%;
+		margin-top: -20px;
+	}	
+}
+
+
+@media only screen and (min-width: 992px) and (max-width: 1199px)
+{
+	
+	.article-forms .form-inputs label
+	{
+		font-size: 14px;
+	}
+}
+
+
+
+
+
+
+
+
+
+/* --------------------------------------------------------------------------------------------------------- */
+/* --------------------------------------------- ARTICLE REVIEW PAGE --------------------------------------- */
+/* --------------------------------------------------------------------------------------------------------- */
+
+@media only screen and (max-width: 767px)
+{
+	.review-articles h1
+	{
+		font-size: 20px;
+		font-family: 'Patua One',sans-serif;
+		padding-bottom: 10px;
+	}
+
+
+	.status-links
+	{
+		position: absolute;
+		left: 15px;
+		top: 75px;
+	}
+
+
+	.searchable-table
+	{
+		margin-top: 50px;
+		border: none;
+	}
+
+
+	.approval-status
+	{
+		padding-left: 0;
+	}
+}
+
+
+@media only screen and (min-width: 576px) and (max-width: 767px)
+{
+	.review-articles
+	{
+		margin-top: -40px;
+		margin-left: -12px;
+	}
+}
+
+
+@media only screen and (min-width: 768px) and (max-width: 991px)
+{
+	.review-articles
+	{
+		width: 98%;
+		margin-top: -30px;
+	}
+
+	.status-links
+	{
+		right: 15px;
+	}
+
+
+	.searchable-table table th,
+	.searchable-table table td
+	{
+		font-size: 14px;
+	}
+}
+
+
+
+
+
+
+
+
+
+/* --------------------------------------------------------------------------------------------------------- */
+/* --------------------------------------------------- FOOTER ---------------------------------------------- */
+/* --------------------------------------------------------------------------------------------------------- */
+
+@media only screen and (max-width: 575px)
+{
+	.page-footer
+	{
+		width: 100%;
+		min-height: 100px;
+		padding: 8px 10px;
+		margin-top: 20px;
+		padding-bottom: 80px;
+	}
+
+
+	.page-footer div
+	{
+		width: 100%;
+		padding: 0px 15px;
+		margin-bottom: 15px;
+	}
+
+
+	.page-footer div h2
+	{
+		text-align: left;
+	}
+
+
+	.page-footer div h3
+	{
+		font-size: 16px;
+		margin-bottom: 10px;
+	}
+
+
+	.page-footer div p
+	{
+		font-size: 13px;
+	}
+
+
+	.page-footer div a
+	{
+		font-size: 13px;
+		margin-bottom: 10px;
+		margin-right: 15px;
+	}
+
+
+	.page-footer div h2
+	{
+		font-size: 16px;
+		line-height: 25px;
+	}
+
+
+	.page-footer div h2 span
+	{
+		font-size: 15px;
+	}
+
+
+	.page-footer ul
+	{
+		padding-left: 0;
+	}
+
+
+	.page-footer ul li 
+	{
+    	margin-right: 0px;
+	}
+
+
+	.page-footer ul li .fa
+	{
+		width: 20px;
+		height: 20px;
+		line-height: 20px;
+		font-size: 10px;
+	}
+
+
+	.page-footer .copyright
+	{
+		margin-bottom: 0;
+	}
+
+
+	.page-footer .copyright .pull-left,
+	.page-footer .copyright .pull-right
+	{
+		float: none !important;
+	}
+
+}
+
+
+@media only screen and (min-width: 576px) and (max-width: 767px)
+{
+	.page-footer div:nth-child(3)
+	{
+		clear: both;
+	}
+
+	
+	.page-footer div:nth-child(4)
+	{
+		padding-left: 8%;
+	}
+}
+
+
+@media only screen and (min-width: 576px) and (max-width: 1023px)
+{
+	.page-footer
+	{
+		width: 100%;
+		min-height: 100px;
+		padding: 8px 10px;
+		margin-top: 20px;
+		padding-bottom: 80px;
+	}
+
+
+	.page-footer div
+	{
+		width: 50%;
+		box-sizing: border-box;
+		padding-left: 10%;
+	}
+
+
+	.page-footer div h2
+	{
+		display: none;
+	}
+
+
+	.page-footer div h3
+	{
+		font-size: 20px;
+	}
+
+
+	.page-footer div p
+	{
+		font-size: 14px;
+	}
+
+
+	.page-footer div a
+	{
+		font-size: 14px;
+	}
+
+
+	.page-footer .copyright
+	{
+		padding: 10px 11%;
+	}
+
+
+	.page-footer .copyright .pull-left,
+	.page-footer .copyright .pull-right
+	{
+		float: none !important;
+	}
+
+}
+
+
+
